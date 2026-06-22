@@ -14,7 +14,6 @@ app = Flask(__name__)
 # ---------------------------------------------------------------------------
 def generate_reply(message: str) -> str:
     text = message.lower().strip()
-
     if not text:
         return "Say something and I'll reply!"
 
